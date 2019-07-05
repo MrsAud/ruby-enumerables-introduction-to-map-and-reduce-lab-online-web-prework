@@ -57,15 +57,13 @@ def reduce_to_total(source_array, total = 0)
   total
 end
 
-def reduce_to_all_true(source_array, total = 0)
+def reduce_to_all_true(source_array)
   counter = 0
-  
-  if source_array[counter]
     while counter < source_array.length do
-      total += source_array[counter]
+      if source_array[counter]
       counter += 1
+      end
     end
-  end
   
   total
 end
