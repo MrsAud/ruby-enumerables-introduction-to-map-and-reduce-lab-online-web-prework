@@ -21,3 +21,15 @@ def map_to_no_change(source_array)
   
   unchanged_array
 end
+
+def map_to_double(source_array)
+  doubled_array = []
+  counter = 0
+  
+  while counter < source_array.length do
+    doubled_array << source_array[counter] * 2
+    counter += 1
+  end
+  
+  doubled_array
+end
