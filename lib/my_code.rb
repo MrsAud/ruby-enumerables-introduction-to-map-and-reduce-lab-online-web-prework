@@ -50,6 +50,7 @@ def reduce_to_all_true(source_array)
     i += 1
   end
   return true
+<<<<<<< HEAD
 end
 
 def reduce_to_any_true(source_array)
@@ -59,4 +60,6 @@ def reduce_to_any_true(source_array)
     i += 1
   end
   return false
+=======
+>>>>>>> f1e8d41f58ee022b88ae2abc0eca2086636a6fc1
 end
